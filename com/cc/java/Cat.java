@@ -4,9 +4,16 @@ public class Cat {
 
 
     // this --> Instanzvariable
+    // public void sayHi(){
+    //     System.out.println("Blick von innen: "  + this);
+    // }
+
+    // this --> Instanzvariable
     public void sayHi(){
-        System.out.println("Blick von innen: "  + this);
+        App.output("Blick von innen: "  + this);
     }
+
+
 
     
 }

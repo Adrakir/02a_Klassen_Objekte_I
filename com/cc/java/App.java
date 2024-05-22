@@ -14,15 +14,12 @@ public class App {
         output("Blick von aussen: " + cat2);
         cat2.sayHi();
 
-       output("hi");
-
     } 
 
     // Statische Methode, die in der Klasse ausgeführt wird ...
     public static void output(String outputStr){
         System.out.println(outputStr);
     }
-
 
 
 }
